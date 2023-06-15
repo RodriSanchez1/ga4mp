@@ -2,8 +2,7 @@
   "name": "@analytics-debugger/ga4mp",
   "version": "0.0.5",
   "description": "An Open-Source Google Analytics 4 Client-Side Protocol Implementation",
-  "main": "dist/ga4mp.min.js",
-  "module": "dist/ga4mp.esm.min.js",
+  "main": "dist/ga4mp.esm.min.js",
   "browser": "dist/ga4mp.min.js",
   "devDependencies": {
     "jest": "^26.6.3"

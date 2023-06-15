@@ -297,4 +297,4 @@ const ga4mp = function (measurement_ids, config = {}) {
     }
 }
 
-export default ga4mp
+export default ga4mp;
