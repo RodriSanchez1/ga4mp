@@ -1,6 +1,6 @@
 /*!
 * 
-*   @rodrisanchez12/ga4mp 0.0.8
+*   @rodrisanchez12/ga4mp 0.0.9
 *   https://github.com/analytics-debugger/ga4mp
 *
 *   Copyright (c) David Vallejo (https://www.thyngster.com).
@@ -242,7 +242,7 @@ define((function () { 'use strict';
     };
   };
 
-  var version = '0.0.8';
+  var version = '0.0.9';
 
   /**
    * Main Class Function
