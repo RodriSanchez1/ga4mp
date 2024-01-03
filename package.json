@@ -3,7 +3,6 @@
   "version": "0.0.9",
   "description": "An Open-Source Google Analytics 4 Client-Side Protocol Implementation",
   "main": "dist/ga4mp.esm.min.js",
-  "module": "dist/ga4mp.esm.min.js",
   "browser": "dist/ga4mp.min.js",
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs",
