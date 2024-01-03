@@ -1,6 +1,6 @@
 /*!
 * 
-*   @rodrisanchez1/ga4mp 0.0.8
+*   @rodrisanchez12/ga4mp 0.0.8
 *   https://github.com/analytics-debugger/ga4mp
 *
 *   Copyright (c) David Vallejo (https://www.thyngster.com).
