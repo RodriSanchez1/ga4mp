@@ -1,6 +1,6 @@
 /*!
 * 
-*   @analytics-debugger/ga4mp 0.0.8
+*   @rodrisanchez1/ga4mp 0.0.8
 *   https://github.com/analytics-debugger/ga4mp
 *
 *   Copyright (c) David Vallejo (https://www.thyngster.com).
@@ -217,7 +217,7 @@ define((function () { 'use strict';
       return {
         _user_agent_architecture: d.architecture,
         _user_agent_bitness: d.bitness,
-        _user_agent_full_version_list: encodeURIComponent((Object.values(d.fullVersionList) || ((_navigator2 = navigator) === null || _navigator2 === void 0 ? void 0 : (_navigator2$userAgent = _navigator2.userAgentData) === null || _navigator2$userAgent === void 0 ? void 0 : _navigator2$userAgent.brands)).map(function (h) {
+        _user_agent_full_version_list: encodeURIComponent((d.fullVersionList && Object.values(d.fullVersionList) || ((_navigator2 = navigator) === null || _navigator2 === void 0 ? void 0 : (_navigator2$userAgent = _navigator2.userAgentData) === null || _navigator2$userAgent === void 0 ? void 0 : _navigator2$userAgent.brands)).map(function (h) {
           return [h.brand, h.version].join(';');
         }).join('|')),
         _user_agent_mobile: d.mobile ? 1 : 0,
